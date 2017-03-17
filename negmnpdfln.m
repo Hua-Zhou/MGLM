@@ -23,8 +23,8 @@ function [logl] = negmnpdfln(x,prob,b)
 %
 %   See also NEGMNFIT, NEGMNREG, NEGMNRND, NEGMNREG2
 %
-%   Copyright 2012-2013 North Carolina State University 
-%   Hua Zhou (hua_zhou@ncsu.edu) and Yiwen Zhang (yzhang31@ncsu.edu)
+% Copyright 2015-2017 University of California at Los Angeles
+% Hua Zhou (hua_zhou@ncsu.edu)
 
 % check number of arguments
 if nargin < 2
