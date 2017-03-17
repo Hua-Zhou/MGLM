@@ -50,7 +50,7 @@ If you use this toolbox in any way, please cite the software itself along with a
 
 * Software reference  
 H Zhou and Y Zhang. Matlab MGLM Toolbox Version 1.0.0, Available online, March 2017.  
-* Default article to cite for the toolbox
+* Default article to cite for the toolbox  
 Y Zhang, H Zhou, J Zhou, and W Sun. (2017) Regression models for multivariate count data. [_Journal of Computational and Graphical Statistics_](http://www.tandfonline.com/doi/abs/10.1080/10618600.2016.1154063), 26(1):1-13. \[[pdf](http://hua-zhou.github.io/media/pdf/ZhangZhouZhouSun17mglm.pdf)\]
 
 ### Contacts
