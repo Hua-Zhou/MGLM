@@ -7,7 +7,7 @@
     <param.summary>MGLM Toolbox for Matlab</param.summary>
     <param.description>MGLM toolbox is a collection of Matlab functions for multi-response GLM regression and sparse regression.</param.description>
     <param.screenshot />
-    <param.version>1.0.2</param.version>
+    <param.version>1.0.0</param.version>
     <param.output>${PROJECT_ROOT}/MGLM.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -120,9 +120,7 @@
     <fileset.rootfiles>
       <file>${PROJECT_ROOT}/.git</file>
       <file>${PROJECT_ROOT}/Contents.m</file>
-      <file>${PROJECT_ROOT}/INSTALL.txt</file>
       <file>${PROJECT_ROOT}/README.md</file>
-      <file>${PROJECT_ROOT}/RELEASE_NOTES.txt</file>
       <file>${PROJECT_ROOT}/demo_dirmn.m</file>
       <file>${PROJECT_ROOT}/demo_dirmnreg.m</file>
       <file>${PROJECT_ROOT}/demo_gendirmn.m</file>
@@ -140,7 +138,6 @@
       <file>${PROJECT_ROOT}/gendirmnreg.m</file>
       <file>${PROJECT_ROOT}/gendirmnrnd.m</file>
       <file>${PROJECT_ROOT}/html</file>
-      <file>${PROJECT_ROOT}/index.md</file>
       <file>${PROJECT_ROOT}/info.xml</file>
       <file>${PROJECT_ROOT}/mglm_sparsereg.m</file>
       <file>${PROJECT_ROOT}/mnlogitreg.m</file>
@@ -151,6 +148,8 @@
       <file>${PROJECT_ROOT}/negmnreg2.m</file>
       <file>${PROJECT_ROOT}/negmnrnd.m</file>
       <file>${PROJECT_ROOT}/private</file>
+      <file>${PROJECT_ROOT}/uclabruin_icon.png</file>
+      <file>${PROJECT_ROOT}/uclabruin_logo.png</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
