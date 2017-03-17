@@ -38,8 +38,9 @@ mv Hua-Zhou-MGLM-xxxxxxx MGLM
 * [Dirichlet-Multinomial distribution](./html/demo_dirmn.html)
 * [Generalized Dirichlet-Multinomial distribution](./html/demo_gendirmn.html) 
 * [Negative multinomial distribution](./html/demo_negmn.html) 
-* [Multinomial-logit regression and sparse regression](./html/demo_dirmnreg.html)
-* [Dirichlet-Multinomial regression and sparse regression](./html/demo_gendirmnreg.html)
+* [Multinomial-logit regression and sparse regression](./html/demo_mnlogitreg.html)
+* [Dirichlet-Multinomial regression and sparse regression](./html/demo_dirmnreg.html)
+* [Generalized Dirichlet-Multinomial regression and sparse regression](./html/demo_gendirmnreg.html)
 * [Negative multinomial regression and sparse regression](./html/demo_negmnreg.html)
 
 
