@@ -1,0 +1,207 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="/Users/huazhou/Documents/github.com/MGLM/MGLM.prj" location="/Users/huazhou/Documents/github.com/MGLM" name="MGLM" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>MGLM</param.appname>
+    <param.authnamewatermark>Hua Zhou</param.authnamewatermark>
+    <param.email>huazhou@ucla.edu</param.email>
+    <param.company>UCLA</param.company>
+    <param.summary>MGLM Toolbox for Matlab</param.summary>
+    <param.description>MGLM toolbox is a collection of Matlab functions for multi-response GLM regression and sparse regression.</param.description>
+    <param.screenshot />
+    <param.version>1.0.2</param.version>
+    <param.output>${PROJECT_ROOT}/MGLM.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>cb07ab0c-4fd0-4e66-b2cc-8d77b2232404</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+
+.git／*
+.DS_Store</param.exclude.filters>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleCategory name="MGLM"&gt;
+      &lt;example name="demo_dirmn" type="html"&gt;
+         &lt;file type="source"&gt;/html/demo_dirmn.html&lt;/file&gt;
+         &lt;file type="main"&gt;/demo_dirmn.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/html/demo_dirmn.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_dirmn_01.png&lt;/file&gt;
+      &lt;/example&gt;
+      &lt;example name="demo_dirmnreg" type="html"&gt;
+         &lt;file type="source"&gt;/html/demo_dirmnreg.html&lt;/file&gt;
+         &lt;file type="main"&gt;/demo_dirmnreg.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/html/demo_dirmnreg.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_dirmnreg_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_dirmnreg_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_dirmnreg_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_dirmnreg_04.png&lt;/file&gt;
+      &lt;/example&gt;
+      &lt;example name="demo_gendirmn" type="html"&gt;
+         &lt;file type="source"&gt;/html/demo_gendirmn.html&lt;/file&gt;
+         &lt;file type="main"&gt;/demo_gendirmn.m&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="demo_gendirmnreg" type="html"&gt;
+         &lt;file type="source"&gt;/html/demo_gendirmnreg.html&lt;/file&gt;
+         &lt;file type="main"&gt;/demo_gendirmnreg.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/html/demo_gendirmnreg.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_gendirmnreg_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_gendirmnreg_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_gendirmnreg_03.png&lt;/file&gt;
+      &lt;/example&gt;
+      &lt;example name="demo_mnlogitreg" type="html"&gt;
+         &lt;file type="source"&gt;/html/demo_mnlogitreg.html&lt;/file&gt;
+         &lt;file type="main"&gt;/demo_mnlogitreg.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/html/demo_mnlogitreg.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_mnlogitreg_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_mnlogitreg_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_mnlogitreg_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_mnlogitreg_04.png&lt;/file&gt;
+      &lt;/example&gt;
+      &lt;example name="demo_negmn" type="html"&gt;
+         &lt;file type="source"&gt;/html/demo_negmn.html&lt;/file&gt;
+         &lt;file type="main"&gt;/demo_negmn.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/html/demo_negmn.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_negmn_01.png&lt;/file&gt;
+      &lt;/example&gt;
+      &lt;example name="demo_negmnreg" type="html"&gt;
+         &lt;file type="source"&gt;/html/demo_negmnreg.html&lt;/file&gt;
+         &lt;file type="main"&gt;/demo_negmnreg.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/html/demo_negmnreg.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_negmnreg_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_negmnreg_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_negmnreg_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_negmnreg_04.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_negmnreg_05.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_negmnreg_06.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_negmnreg_07.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/demo_negmnreg_08.png&lt;/file&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.docs>${PROJECT_ROOT}/info.xml</param.docs>
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <unset>
+      <param.screenshot />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.demosxml />
+      <param.apps />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+    </unset>
+    <fileset.rootdir>
+      <file>/Users/huazhou/Documents/github.com/MGLM</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/.git</file>
+      <file>${PROJECT_ROOT}/Contents.m</file>
+      <file>${PROJECT_ROOT}/INSTALL.txt</file>
+      <file>${PROJECT_ROOT}/README.md</file>
+      <file>${PROJECT_ROOT}/RELEASE_NOTES.txt</file>
+      <file>${PROJECT_ROOT}/demo_dirmn.m</file>
+      <file>${PROJECT_ROOT}/demo_dirmnreg.m</file>
+      <file>${PROJECT_ROOT}/demo_gendirmn.m</file>
+      <file>${PROJECT_ROOT}/demo_gendirmnreg.m</file>
+      <file>${PROJECT_ROOT}/demo_mnlogitreg.m</file>
+      <file>${PROJECT_ROOT}/demo_negmn.m</file>
+      <file>${PROJECT_ROOT}/demo_negmnreg.m</file>
+      <file>${PROJECT_ROOT}/demos.xml</file>
+      <file>${PROJECT_ROOT}/dirmnfit.m</file>
+      <file>${PROJECT_ROOT}/dirmnpdfln.m</file>
+      <file>${PROJECT_ROOT}/dirmnreg.m</file>
+      <file>${PROJECT_ROOT}/dirmnrnd.m</file>
+      <file>${PROJECT_ROOT}/gendirmnfit.m</file>
+      <file>${PROJECT_ROOT}/gendirmnpdfln.m</file>
+      <file>${PROJECT_ROOT}/gendirmnreg.m</file>
+      <file>${PROJECT_ROOT}/gendirmnrnd.m</file>
+      <file>${PROJECT_ROOT}/html</file>
+      <file>${PROJECT_ROOT}/index.md</file>
+      <file>${PROJECT_ROOT}/info.xml</file>
+      <file>${PROJECT_ROOT}/mglm_sparsereg.m</file>
+      <file>${PROJECT_ROOT}/mnlogitreg.m</file>
+      <file>${PROJECT_ROOT}/mnpdfln.m</file>
+      <file>${PROJECT_ROOT}/negmnfit.m</file>
+      <file>${PROJECT_ROOT}/negmnpdfln.m</file>
+      <file>${PROJECT_ROOT}/negmnreg.m</file>
+      <file>${PROJECT_ROOT}/negmnreg2.m</file>
+      <file>${PROJECT_ROOT}/negmnrnd.m</file>
+      <file>${PROJECT_ROOT}/private</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/huazhou/Documents/github.com/MGLM" name="MGLM.mltbx" optional="false">/Users/huazhou/Documents/github.com/MGLM/MGLM.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2017a.app</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.12.3</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
