@@ -7,7 +7,7 @@ title: MGLM
 
 MGLM toolbox is a collection of Matlab functions for multi-response GLM regression and sparse regression.
 
-The toolbox is developed by [Hua Zhou](http://hua-zhou.github.io) and [Yiwen Zhang](http://Yiwen-Zhang.github.io).
+The toolbox is developed by [Hua Zhou](http://hua-zhou.github.io) and [Yiwen Zhang](http://Yiwen-Zhang.github.io). An R package of same functionalities is available at [CRAN](https://cran.r-project.org/web/packages/MGLM/index.html).
 
 ### Compatibility
 
